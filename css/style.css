@@ -1,0 +1,287 @@
+ /* duto div niye jokhon email and password nilam tokhon keno                                                float left kora shotteu email er size thik holeu password                                                    div purota  div niye nisilo */
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /*header start*/
+
+ header {
+     background-color: #3C5A98;
+
+ }
+
+ .wrapper {
+     width: 80%;
+     margin: 0px auto;
+     overflow: hidden;
+ }
+
+ .logo {
+     width: 20%;
+     float: left;
+     margin-top: 40px;
+ }
+
+ .logo img {
+     width: 100%;
+ }
+
+ .login_nav {
+     width: 60%;
+     /*    border: 1px solid red;*/
+     float: right;
+     overflow: hidden;
+
+ }
+
+ .login {
+     float: left;
+     margin: 20px 5px;
+     padding: 5px 20px;
+     color: white;
+     /*    border: 1px solid red;*/
+     display: block;
+ }
+
+ #login-email {
+     padding: 3px 10px;
+     margin-bottom: 7px;
+ }
+
+ #login-password {
+     padding: 3px 10px;
+     margin-bottom: 7px;
+ }
+
+ .login a {
+     text-decoration: none;
+     color: #73ABD8;
+
+ }
+
+ .login a:hover {
+     text-decoration: underline;
+ }
+
+ .submit {
+     float: left;
+     margin-top: 42px;
+ }
+
+ .submit button {
+     padding: 3px 10px;
+     background-color: #4E93D4;
+     border-radius: 2px;
+     color: white;
+ }
+
+ .submit button:hover {
+     background-color: #3F5C9A;
+ }
+
+ /*header end*/
+
+ /*   conten start*/
+
+ .body {
+     background-color: #E7EAF2;
+ }
+
+ .wrapper2 {
+     width: 90%;
+     margin: 0 auto;
+     min-height: 600px;
+     /*     border: 1px solid red;*/
+     overflow: hidden;
+ }
+
+ .content {
+     width: 45%;
+     min-height: 550px;
+     /*     border: 1px solid red;*/
+     margin: 29px;
+     float: left;
+ }
+
+ .content_text {
+     margin: 35px 0;
+ }
+
+ .content_img {
+     width: 80%;
+     margin: 10px auto;
+ }
+
+ .content_img img {
+     width: 100%;
+ }
+
+ .form-group {
+     padding: 10px 20px;
+
+ }
+
+ .form-group input {
+     border-radius: 3px;
+     border: 1px solid lightgray;
+     transition: 0.50s;
+ }
+
+ #firstname {
+     margin-right: 16px;
+ }
+
+ input[type=radio]:not(old),
+ input[type=radio]:not(old) {
+     margin: 5px 8px 5px 0;
+
+ }
+
+ .form-group span {
+     font-size: 30px;
+ }
+
+ .form-group input[type=text]:not(old),
+ .form-group input[type=email]:not(old),
+ .form-group input[type=password]:not(old),
+ .form-group input[type=date]:not(old),
+ .form-group input[type=text]:not(old) {
+     font-size: 18px;
+     min-height: 40px;
+ }
+
+ .form-group input:hover {
+     border-color: #58A4D8;
+ }
+
+ .form-group h1 {
+     font-size: 50px;
+ }
+
+ .form-group p a {
+     text-decoration: none;
+     color: #58A4D8;
+ }
+
+ .form-group p a:hover {
+     text-decoration: underline;
+ }
+
+ .signup {
+     background-color: #6AA555;
+     padding: 10px 80px;
+     font-size: 25px;
+     color: white;
+     border-radius: 5px;
+ }
+
+ /*   content end*/
+
+ /*footer header start*/
+
+ .footer_header {
+     width: 80%;
+     margin: 10px auto;
+     overflow: hidden;
+     padding-top: 30px;
+     border-bottom: 1px solid #DDDFE2;
+
+ }
+
+ .footer_header ul {
+     float: left;
+ }
+
+ .footer_header ul li {
+     float: left;
+     list-style: none;
+ }
+
+ .footer_header ul li a {
+     text-decoration: none;
+     padding: 10px;
+     color: #367DC4;
+     transition: .30s;
+ }
+
+ .footer_header ul li a:hover {
+     text-decoration: underline;
+     color: #3C5A98;
+ }
+
+ .footer_header span button {
+     font-size: 15px;
+     padding: 0 8px;
+     margin-bottom: 5px;
+ }
+
+
+ /*footer header end*/
+
+ /*footer content start*/
+
+ .footer_content {
+     width: 80%;
+     margin: 10px auto;
+     overflow: hidden;
+     line-height: 1.5;
+
+ }
+
+ .footer_content ul {
+     float: left;
+ }
+
+ .footer_content ul li {
+     float: left;
+     list-style: none;
+ }
+
+ .footer_content ul li a {
+     text-decoration: none;
+     padding: 10px;
+     color: #367DC4;
+     transition: .30s;
+ }
+
+ .footer_content ul li a:hover {
+     text-decoration: underline;
+ }
+
+ /*footer content end*/
+
+ /*footer_footer start*/
+
+ .footer_footer {
+     width: 80%;
+     margin: 0px auto;
+     color: #737373;
+ }
+
+ .footer_footer h5 {
+     padding: 10px;
+ }
+
+ /*footer_footer end*/
+
+ /*placeholder color*/
+
+ ::-webkit-input-placeholder {
+     color: #9C9B99;
+ }
+
+ ::-moz-placeholder {
+     color: #9C9B99;
+ }
+
+ :-ms-input-placeholder {
+     color: #9C9B99;
+ }
+
+ :-moz-placeholder {
+     color: #9C9B99;
+ }
+
+ /*placeholder color*/
