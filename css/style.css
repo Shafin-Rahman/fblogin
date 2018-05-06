@@ -46,12 +46,12 @@
  }
 
  #login-email {
-     padding: 3px 10px;
+     padding: 3px;
      margin-bottom: 7px;
  }
 
  #login-password {
-     padding: 3px 10px;
+     padding: 3px;
      margin-bottom: 7px;
  }
 
@@ -126,12 +126,14 @@
  .form-group input {
      border-radius: 3px;
      border: 1px solid lightgray;
+     padding: 0 10px;
      transition: 0.50s;
  }
 
  #firstname {
      margin-right: 16px;
  }
+
 
  input[type=radio]:not(old),
  input[type=radio]:not(old) {
@@ -152,6 +154,18 @@
      min-height: 40px;
  }
 
+#day{
+   font-size: 20px;
+    padding: 5px;
+}
+#month{
+    font-size: 20px;
+    padding: 5px;
+}
+#year{
+    font-size: 20px;
+    padding: 5px;
+}
  .form-group input:hover {
      border-color: #58A4D8;
  }
